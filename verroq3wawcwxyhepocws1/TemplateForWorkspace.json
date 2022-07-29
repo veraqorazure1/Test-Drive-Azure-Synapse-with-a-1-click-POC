@@ -511,7 +511,7 @@
 					},
 					"SynapseWorkspaceName": {
 						"type": "string",
-						"defaultValue": "verroq3wawcwxyhepocws1.data"
+						"defaultValue": "verroq3wawcwxyhepocws1"
 					},
 					"SQLDedicatedPoolName": {
 						"type": "string",
