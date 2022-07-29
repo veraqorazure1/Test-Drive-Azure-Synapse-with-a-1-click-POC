@@ -511,7 +511,7 @@
 					},
 					"SynapseWorkspaceName": {
 						"type": "string",
-						"defaultValue": "verroq3wawcwxyhepocws1"
+						"defaultValue": "verroq3wawcwxyhepocws1.data"
 					},
 					"SQLDedicatedPoolName": {
 						"type": "string",
@@ -1220,7 +1220,11 @@
 						"dataFlowProperties": {
 							"computeType": "General",
 							"coreCount": 8,
-							"timeToLive": 0
+							"timeToLive": 0,
+							"cleanup": true
+						},
+						"pipelineExternalComputeScaleProperties": {
+							"timeToLive": 60
 						}
 					}
 				},
