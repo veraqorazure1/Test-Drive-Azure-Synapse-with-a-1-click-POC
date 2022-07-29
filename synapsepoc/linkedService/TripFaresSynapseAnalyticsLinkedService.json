@@ -3,16 +3,20 @@
 	"properties": {
 		"parameters": {
 			"SynapseWorkspaceName": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "verroq3wawcwxyhepocws1.sql.azuresynapse.net"
 			},
 			"SQLDedicatedPoolName": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "verroq3wawcwxyhepocws1p1 "
 			},
 			"keyVaultName": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "kvverroq3wawcwxyhepoc"
 			},
 			"SQLLoginUsername": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "veraqoradmin"
 			}
 		},
 		"annotations": [],
